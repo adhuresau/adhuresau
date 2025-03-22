@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adhuresa's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+            background-color: #ffe6e6;
+        }
+
+        header, footer {
+            background-color: #962a4b;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+        nav {
+            font-family: Georgia;
+            text-align: center;
+            background: #c45879;
+        }
+
+        .nav-link {
+            color: white !important;
+        }
+
+        .nav-link:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 50px 20px;
+        }
+
+        .hobbies-interests {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        ul {
+            list-style-type: disc;
+        }
+
+        .kosovo-image {
+            display: block;
+            margin: 20px auto;
+            max-width: 50%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .carousel img {
+            max-height: 500px;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #c45879;
+            border-radius: 10px;
+            background-color: #c45879;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            display: inline-block;
+            padding: 10px 20px;
+            border: none;
+            background-color: white;
+            color: #c45879;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #962a4b;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Welcome to Adhuresa's Website</h1>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#hobbies-interests">Hobbies and Interests</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#links">Links</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.pinimg.com/736x/67/0e/01/670e010d8cc3f3b22aa37e5f1ba3fb6b.jpg" 
+                         class="d-block w-100" alt="coding">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/03/a8/35/03a8350117ab7b35c87eb58c1b635845.jpg" 
+                         class="d-block w-100" alt="sushi">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/a1/95/8a/a1958ad890520c3dd95574f0131f70cb.jpg" 
+                         class="d-block w-100" alt="nature">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Me section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! My name is Adhuresa Ukaj and I am a sophomore majoring in Computer Science at Fordham University, with an interest in cybersecurity. I have participated 
+            in several programs where I learned HTML, CSS, and JavaScript through instruction and project work. So far at Fordham, I have taken
+            courses such as Computer Science I and II in C++, Data Structures, and Discrete Structures.
+        </p>    
+    </section>
+    
+    <!-- Hobbies and Interests section -->
+    <section id="hobbies-interests">
+        <h2>Hobbies and Interests</h2>
+        <div class="hobbies-interests">
+            <div>
+                <h3>My Hobbies:</h3>
+                <ul>
+                    <li>Taking walks</li>
+                    <li>Baking</li>
+                    <li>Hanging with friends</li>
+                    <li>Listening to music</li>
+                    <li>Playing with my little brother</li>
+                </ul>
+            </div>
+            <div>
+                <h3>My Interests:</h3>
+                <ul>
+                    <li>Sushi</li>
+                    <li>Photography</li>
+                    <li>Fashion</li>
+                    <li>Tech</li>
+                    <li>Nature</li>
+                </ul>
+            </div>
+        </div>
+        <h3>Visiting My Home Country Kosova</h3>
+        <img src="https://i.pinimg.com/736x/17/fb/d8/17fbd862824c529b4b5ff8dfbfade9c4.jpg" 
+             alt="Kosova" class="kosovo-image">
+        <h3>My Favorite Study Music</h3>
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/BMuknRb7woc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills">
+        <h2>Skills and Proficiency</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                    <th>Tools Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Advanced</td>
+                    <td>Visual Studio Code, Chrome</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                    <td>Bootstrap, Sass</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                    <td>Node.js, React</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermediate</td>
+                    <td>Visual Studio Code, Docker</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Links section -->
+    <section id="links">
+        <h2>Links</h2>
+        <p>Here are some useful websites I recommend:</p>
+        <ul>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a> - Great for learning coding basics</li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a> - Creating code and collaboration</li>
+            <li><a href="https://www.linkedin.com/in/adhuresa/" target="_blank">My LinkedIn Profile</a> - Connect with me professionally</li>
+        </ul>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <h2>Contact Me</h2>
+        <form action="mailto:aukaj@fordham.edu" method="post" enctype="text/plain">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Your Message:</label>
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Type your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+        <p>&copy; 2024 Adhuresa's Portfolio</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+</body>
+</html>
