@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - My name is Adhuresa Ukaj
-- I am an incoming freshman to Fordham University studying computer science
+- I am currently a sophomore at Fordham University studying computer science
