@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 - I am currently a rising junior at Fordham University studying computer science! I am interested in AI/ML and data science.
 - Detail-oriented Computer Science student at Fordham University with a strong interest in AI, data analysis, and applying technology to real-world challenges. Skilled in problem-solving, organizing complex systems, and automating tasks to improve efficiency. Experienced in technical support, data handling, and collaborative team environments.
 
-![IMG_9472](https://github.com/user-attachments/assets/ed37e789-c130-4a7f-95e1-4641b0edbbc2)
+<img src="![IMG_9472](https://github.com/user-attachments/assets/ed37e789-c130-4a7f-95e1-4641b0edbbc2)" width="300"/>
 
 -📫 How to reach me: adhuresaukaj@gmail.com || aukaj@fordham.edu
 - Linkedin: https://www.linkedin.com/in/adhuresa/
